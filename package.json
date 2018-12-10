@@ -1,0 +1,12 @@
+{
+  "name": "data-structures",
+  "version": "0.1.0",
+  "description": "non OOP generic data structurs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["learntocode", "data-structures", "learn code", "learn"],
+  "author": "slugbyte@slugbyte.com",
+  "license": "ISC"
+}
