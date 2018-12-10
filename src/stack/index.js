@@ -1,5 +1,3 @@
-// A JAVASCRIPT STACK IMPLAMENTATION
-
 const stackCreator = () => {
   const state = {
     data: {},
@@ -23,4 +21,4 @@ const stackCreator = () => {
   }
 }
 
-module.exports = createStack 
+module.exports = stackCreator
