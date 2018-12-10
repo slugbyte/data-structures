@@ -1,5 +1,7 @@
 # Data Structures in Javascript
 
+![abstract data structure drawing](https://github.com/slugbyte/data-structures/raw/master/assets/data-structures-header.png)
+
 ## Goals
 * The implamentations will be test driven
 * The implamentaions will use closures to maintain state (no classes or constructurs)
