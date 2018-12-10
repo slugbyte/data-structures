@@ -1,4 +1,5 @@
 # Data Structures in Javascript
+[![Build Status](https://travis-ci.org/slugbyte/data-structures.svg?branch=master)](https://travis-ci.org/slugbyte/data-structures)
 
 ![abstract data structure drawing](https://github.com/slugbyte/data-structures/raw/master/assets/data-structures-header.png)
 
