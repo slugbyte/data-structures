@@ -11,18 +11,17 @@ The stack abstract data structure is used to store information in a manner where
 
 ### Add data with `push`
 ![stack push graphic](../../assets/stack-push-graphic.png)
-The push method takes in a value as an argument to add onto the top of the stack and then returns the number of items in the stack.
+> The push method takes in a value as an argument to add onto the top of the stack and then returns the number of items in the stack.
 
 ### Remove and retrieve data with `pop`
-The pop method removes and returns a value from the top of the stack.
+![stack push graphic](../../assets/stack-pop-graphic.png)
+> The pop method removes and returns a value from the top of the stack. If the stack is empty the stack will return null.
 
-### Check the top value with `peek`
-The pop method returns a value from the top of the stack **without** removing it from the stack.
+### Using `isEmpty` and `peek`
+![isEmpty and peek graphic](../../assets/stack-is-empty-peek-graphic.png)
+> The isEmpty method will return `true` if the stack is Empty and `false` otherwise.  
 
-### Check if a stack is empty with `isEmpty`
-The isEmpty method will return `true` if the stack is Empty and `false` otherwise.
-
-A stack is an abstract data structure for storing data that gives uses 
+> The peek method returns a value from the top of the stack **without** removing it from the stack.  
 
 # What are common use cases for stacks?
 * Two stacks are often used to implament Undo and Redo
