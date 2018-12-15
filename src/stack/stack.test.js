@@ -1,12 +1,12 @@
-const stackCreator = require('./index.js')
+const createStack = require('./index.js')
 
 describe('stack', () => {
-  it('stackCreator should be a function', () => {
-    expect(typeof stackCreator).toBe('function')
+  it('createStack should be a function', () => {
+    expect(typeof createStack).toBe('function')
   })
 
-  it('stackCreator should return a stack object with the methods push, pop, peek, and isEmpty', () => {
-    const stack = stackCreator()
+  it('createStack should return a stack object with the methods push, pop, peek, and isEmpty', () => {
+    const stack = createStack()
 
     expect(typeof stack.push).toBe('function')
     expect(typeof stack.pop).toBe('function')
@@ -18,7 +18,7 @@ describe('stack', () => {
   })
 
   it('stack.isEmpty should return true if the stack is empty otherwise false', () => {
-    const stack = stackCreator()
+    const stack = createStack()
 
     expect(stack.isEmpty()).toBe(true)
     stack.push('having fun yet?')
@@ -26,14 +26,14 @@ describe('stack', () => {
   })
 
   it('stack.peek and stack.pop should return null on an empty stack', () => {
-    const stack = stackCreator()
+    const stack = createStack()
 
     expect(stack.peek()).toBe(null)
     expect(stack.pop()).toBe(null)
   })
 
   it('stack.push first push a value and then return number of items in the stack', () => {
-    const stack = stackCreator()
+    const stack = createStack()
 
     let result = stack.push('one')
     expect(result).toBe(1)
@@ -53,7 +53,7 @@ describe('stack', () => {
   })
 
   it('stack.peek should return the top value on the stack without removing it', () => {
-    const stack = stackCreator()
+    const stack = createStack()
 
     let valueCount= stack.push('a') 
     let topValue = stack.peek()
@@ -73,7 +73,7 @@ describe('stack', () => {
   })
 
   it('stack.peek should return the top value on the stack without removing it', () => {
-    const stack = stackCreator()
+    const stack = createStack()
 
     let valueCount= stack.push('a') 
     let topValue = stack.peek()
@@ -92,7 +92,7 @@ describe('stack', () => {
   })
 
   it('stack.pop should remove and return the top value of the stack', () => {
-    const stack = stackCreator()
+    const stack = createStack()
 
     stack.push('abc123')
     let topValue = stack.pop()
