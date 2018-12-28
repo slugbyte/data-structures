@@ -24,7 +24,7 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✗ Array
 * ✗ Enumeration
 * ✔︎ Stack
-* ✗ Queue
+* ✔︎ Queue
 * ✗ Set
 * ✗ Tuple 
 * ✗ Container 
@@ -57,3 +57,6 @@ Abstract data types are amazing tools that solve many common programming problem
 
 ## References
 * [https://en.wikipedia.org/wiki/Abstract_data_type](https://en.wikipedia.org/wiki/Double_hashing)
+
+## License 
+[MIT](https://github.com/slugbyte/data-structures/blob/master/LICENSE.md)
