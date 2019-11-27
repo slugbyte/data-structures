@@ -20,7 +20,7 @@ Abstract data types are amazing tools that solve many common programming problem
 
 ## General Abstrat Data Structures
 * ✔︎ Singly Linked List
-* ✗ Doubly Linked List
+* ✔︎ Doubly Linked List
 * ✗ Array
 * ✗ Enumeration
 * ✔︎ Stack
