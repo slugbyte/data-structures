@@ -1,24 +1,16 @@
-const stackCreator = () => {
-  const state = {
-    data: {},
-    top: 0,
+class Stack {
+  constructor(){
+    this._state = []
   }
 
-  return {
-    push: (value) => {
-      state.data[state.top++] = value
-      return state.top
-    },
-    pop: () => {
-      if(state.top < 1) return null
-      return state.data[--state.top]
-    },
-    peek: () => {
-      if(state.top < 1) return null
-      return state.data[state.top - 1]
-    },
-    isEmpty: () => state.top == 0,
+  push(value){
+    this._state.push(value)
+    return this
+  }
+
+  pop(){
+    return this._state.pop()
   }
 }
 
-module.exports = stackCreator
+module.exports = Stack
