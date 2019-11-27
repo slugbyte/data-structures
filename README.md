@@ -22,7 +22,7 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ Singly Linked List
 * ✔︎ Doubly Linked List
 * ✗ Array
-* ✗ Enumeration
+* ✔︎ Enumeration
 * ✔︎ Stack
 * ✔︎ Queue
 * ✗ Set
