@@ -15,7 +15,7 @@
   "author": "slugbyte@slugbyte.com",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.10.0",
+    "eslint": "^5.16.0",
     "jest": "^23.6.0"
   }
 }
