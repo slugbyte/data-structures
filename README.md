@@ -26,9 +26,9 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ Stack
 * ✔︎ Queue
 * ✔︎ Set
-* ✗ Hash Table
+* ✔︎ Hash Table
+* ✗ Binary Heap 
 * ✗ Binary Search Tree
-* ✗ Binary Heap
 * ✗ Tree
 * ✗ Graph 
 * ✗ Trie 
