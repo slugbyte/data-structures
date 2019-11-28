@@ -1,7 +1,7 @@
 const SinglyLinkedList = require('./index.js')
 
 describe('Singly Linked List', () => {
-  it('#prependNodeWithValue', () => {
+  test('#prependNodeWithValue', () => {
     let temp = new SinglyLinkedList()
     temp.prependNodeWithValue(1) 
     temp.prependNodeWithValue(2) 
@@ -10,7 +10,7 @@ describe('Singly Linked List', () => {
     expect(temp.head.next.next).toBe(null)
   })
 
-  it('#appendNodeWithValue', () => {
+  test('#appendNodeWithValue', () => {
     let temp = new SinglyLinkedList()
     temp.appendNodeWithValue(1)
     temp.appendNodeWithValue(2)
@@ -19,7 +19,7 @@ describe('Singly Linked List', () => {
     expect(temp.head.next.next).toBe(null)
   })
 
-  it('#getNthNode', () => {
+  test('#getNthNode', () => {
     let temp = new SinglyLinkedList()
     temp.appendNodeWithValue(1)
     temp.appendNodeWithValue(2)
@@ -32,7 +32,7 @@ describe('Singly Linked List', () => {
     expect(temp.getNthNode(5)).toBe(null)
   })
 
-  it('#getNthFromLastNode', () => {
+  test('#getNthFromLastNode', () => {
     let temp = new SinglyLinkedList()
     temp.appendNodeWithValue(1)
     temp.appendNodeWithValue(2)
@@ -45,7 +45,7 @@ describe('Singly Linked List', () => {
     expect(temp.getNthFromLastNode(4)).toBe(null)
   })
 
-  it('#findMiddle', () => {
+  test('#findMiddle', () => {
     let temp = new SinglyLinkedList()
     temp.appendNodeWithValue(1)
     expect(temp.findMiddle().value).toBe(1)
@@ -58,7 +58,7 @@ describe('Singly Linked List', () => {
     expect(temp.findMiddle().value).toBe(3)
   }) 
 
-  it('#getHead and #getTail', () => {
+  test('#getHead and #getTail', () => {
     let temp = new SinglyLinkedList()
     expect(temp.getHead()).toBe(null)
     expect(temp.getTail()).toBe(null)

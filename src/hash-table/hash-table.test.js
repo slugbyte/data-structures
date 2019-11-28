@@ -1,7 +1,7 @@
 const HashTable = require('./index.js')
 
 describe('hash-table', () => {
-  it('#insert, #delete', () => {
+  test('#insert, #delete', () => {
     const store = new HashTable(8)
     expect(store.numBuckets).toBe(8)
 

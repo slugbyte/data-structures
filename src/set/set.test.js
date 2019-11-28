@@ -1,7 +1,7 @@
 const CustomSet = require('./index.js')
 
 describe('CustomSet', () => {
-  it('#add, #remove, #contains, #size, and #isEmpty', () => {
+  test('#add, #remove, #contains, #size, and #isEmpty', () => {
     const set = new CustomSet()
     expect(set.isEmpty()).toBe(true)
     expect(set.size()).toBe(0)
@@ -40,7 +40,7 @@ describe('CustomSet', () => {
     expect(set.isEmpty()).toBe(true)
   })
 
-  it('#toArray', () => {
+  test('#toArray', () => {
     let set = new CustomSet()
     set.add(true).add(11).add(4).add("false").add("hello world")
     let list = set.toArray()
@@ -53,7 +53,7 @@ describe('CustomSet', () => {
     expect(list).not.toContain(false)
   })
 
-  it('#union', () => {
+  test('#union', () => {
     let a = new CustomSet()
     let b = new CustomSet()
     a.add('one').add("two").add("three")
@@ -68,7 +68,7 @@ describe('CustomSet', () => {
     expect(result.contains(3)).toBeTruthy()
   })
 
-  it('#intersect', () => {
+  test('#intersect', () => {
     let a = new CustomSet()
     let b = new CustomSet()
     a.add('one').add("two").add("three").add(3)
@@ -84,7 +84,7 @@ describe('CustomSet', () => {
     expect(result.contains(2)).toBeFalsy()
   })
 
-  it('#diff', () => {
+  test('#diff', () => {
     let a = new CustomSet()
     let b = new CustomSet()
     a.add('one').add("two").add("three").add(3)

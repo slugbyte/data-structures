@@ -1,7 +1,7 @@
 const DoublyLinkedList = require('./index.js')
 
 describe('Doubly Linked List', () => {
-  it('#prependNodeWithValue', () => {
+  test('#prependNodeWithValue', () => {
     let temp = new DoublyLinkedList()
     temp.prependNodeWithValue(1) 
     temp.prependNodeWithValue(2) 
@@ -12,7 +12,7 @@ describe('Doubly Linked List', () => {
     expect(temp.head.next.prev).toBe(temp.head) 
   })
 
-  it('#appendNodeWithValue', () => {
+  test('#appendNodeWithValue', () => {
     let temp = new DoublyLinkedList()
     temp.appendNodeWithValue(1)
     temp.appendNodeWithValue(2)
@@ -23,7 +23,7 @@ describe('Doubly Linked List', () => {
     expect(temp.head.next.prev).toBe(temp.head)
   })
 
-  it('#getNthNode', () => {
+  test('#getNthNode', () => {
     let temp = new DoublyLinkedList()
     temp.appendNodeWithValue(1)
     temp.appendNodeWithValue(2)
@@ -36,7 +36,7 @@ describe('Doubly Linked List', () => {
     expect(temp.getNthNode(5)).toBe(null)
   })
 
-  it('#getNthFromLastNode', () => {
+  test('#getNthFromLastNode', () => {
     let temp = new DoublyLinkedList()
     temp.appendNodeWithValue(1)
     temp.appendNodeWithValue(2)
@@ -49,7 +49,7 @@ describe('Doubly Linked List', () => {
     expect(temp.getNthFromLastNode(4)).toBe(null)
   })
 
-  it('#findMiddle', () => {
+  test('#findMiddle', () => {
     let temp = new DoublyLinkedList()
     temp.appendNodeWithValue(1)
     expect(temp.findMiddle().value).toBe(1)
@@ -62,7 +62,7 @@ describe('Doubly Linked List', () => {
     expect(temp.findMiddle().value).toBe(3)
   }) 
 
-  it('#getHead and #getTail', () => {
+  test('#getHead and #getTail', () => {
     let temp = new DoublyLinkedList()
     expect(temp.getHead()).toBe(null)
     expect(temp.getTail()).toBe(null)

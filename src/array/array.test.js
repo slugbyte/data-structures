@@ -1,6 +1,6 @@
 const CustomArray = require('./index.js')
 describe('Array', () => {
-  it('#append', () => {
+  test('#append', () => {
     let temp = new CustomArray()
     expect(temp.length).toBe(0)
 
@@ -13,7 +13,7 @@ describe('Array', () => {
     expect(temp[1]).toBe('b')
   })
 
-  it('#prepend', () => {
+  test('#prepend', () => {
     let temp = new CustomArray()
     expect(temp.length).toBe(0)
 
@@ -27,7 +27,7 @@ describe('Array', () => {
     expect(temp[1]).toBe('a')
   })
 
-  it('#removeLast', () => {
+  test('#removeLast', () => {
     let temp = new CustomArray()
     temp.append('a').append('b').append('c')
     expect(temp[0]).toBe('a')
@@ -48,7 +48,7 @@ describe('Array', () => {
     expect(temp.length).toBe(1)
   })
   
-  it('#removeFirst', () => {
+  test('#removeFirst', () => {
     let temp = new CustomArray()
     temp.append('a').append('b').append('c')
     expect(temp[0]).toBe('a')
@@ -68,7 +68,7 @@ describe('Array', () => {
     expect(temp.length).toBe(1)
   })
 
-  it('#reduce', () => {
+  test('#reduce', () => {
     let temp = new CustomArray()
     temp.prepend(1).prepend(2).prepend(3)
 
@@ -85,7 +85,7 @@ describe('Array', () => {
     expect(result).toBe(16)
   })
 
-  it('#filter', () => {
+  test('#filter', () => {
     let temp = new CustomArray()
     temp.prepend(5).prepend(4).prepend(3)
       .prepend(2).prepend(1)
@@ -100,7 +100,7 @@ describe('Array', () => {
     expect(result[2]).toBe(5)
   })
 
-  it('#map', () => {
+  test('#map', () => {
     let temp = new CustomArray()
     temp.prepend(3).prepend(2).prepend(1)
 

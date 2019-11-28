@@ -1,7 +1,7 @@
 const Enum = require('./index.js')
 
 describe('enum', () => {
-  it('testing enum', () => {
+  test('testing enum', () => {
     let temp = new Enum('red', 'blue', 'green')
     let red = temp.red
     let blue = temp.blue
@@ -20,7 +20,7 @@ describe('enum', () => {
     expect(temp.isGREEN(green)).toEqual(true)
   })
 
-  it('should work with a switch statement', () => {
+  test('should work with a switch statement', () => {
     let temp = new Enum('red', 'blue', 'green')
 
     switch(temp.green){

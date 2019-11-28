@@ -1,7 +1,7 @@
 const Queue = require('./index.js')
 
 describe('queue', () => {
-  it('#enqueue and #dequeue', () => {
+  test('#enqueue and #dequeue', () => {
     let temp = new Queue()
     temp.enqueue('a')
     temp.enqueue('b')

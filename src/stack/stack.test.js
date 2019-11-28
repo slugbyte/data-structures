@@ -1,7 +1,7 @@
 const Stack = require('./index.js')
 
 describe('stack', () => {
-  it('#push and #pop', () => {
+  test('#push and #pop', () => {
     let temp = new Stack()
 
     temp.push(1).push(2).push(3)
