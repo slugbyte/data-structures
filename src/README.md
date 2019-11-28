@@ -6,3 +6,4 @@
 * [Enum](./enum)
 * [Array](./array)
 * [Set](./set)
+* [Hash Table](./hash-table)
