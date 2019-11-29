@@ -28,30 +28,25 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Hash Table](./src/hash-table)
 * ✔︎ [Min Heap](./src/min-heap)
 * ✔︎ [Max Heap](./src/max-heap)
-* ✗ Binary Search Tree
-* ✗ Tree
-* ✗ Graph 
-* ✗ Trie 
-
 
 ### TODO
-* Binary Math Functions
-* Observable
-* Circular Buffer
-* Dynamic Array
-* AA Tree
-* AVL Tree
-* Binary Search Tree
-* Cartesian Tree
-* Red-Black Tree
-* Rope
-* B-Tree
-* Heap
-* Binomial Heap
-* Ternary Tree
-* K-Ary Tree
-* Double Hashed Hash Table
-* Directed Graph 
+1. ✗ Binary Search Tree
+1. ✗ Trie 
+1. ✗ Directional Graph 
+1. ✗ Observable
+1. ✗ Circular Buffer
+1. ✗ Dynamic Array
+1. ✗ AA Tree
+1. ✗ AVL Tree
+1. ✗ Cartesian Tree
+1. ✗ Red-Black Tree
+1. ✗ Rope
+1. ✗ B-Tree
+1. ✗ Binomial Heap
+1. ✗ Ternary Tree
+1. ✗ K-Ary Tree
+1. ✗ Double Hashed Hash Table
+1. ✗ Directed Graph 
 
 ## References
 * [https://en.wikipedia.org/wiki/Abstract_data_type](https://en.wikipedia.org/wiki/Double_hashing)
