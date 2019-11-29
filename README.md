@@ -27,14 +27,15 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ Queue
 * ✔︎ Set
 * ✔︎ Hash Table
-* ✗ Binary Heap 
+* ✔︎ Min Heap (array implamentation)
+* ✗ Max Heap (tree implamentation)
 * ✗ Binary Search Tree
 * ✗ Tree
 * ✗ Graph 
 * ✗ Trie 
 
 
-### Bonus  
+### TODO
 * Binary Math Functions
 * Observable
 * Circular Buffer
