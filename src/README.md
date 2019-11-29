@@ -7,3 +7,4 @@
 * [Array](./array)
 * [Set](./set)
 * [Hash Table](./hash-table)
+* [Min Heap](./min-heap)
