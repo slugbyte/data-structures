@@ -1,4 +1,4 @@
-const Enum = require('./index.js')
+const Enum = require('./enum.js')
 
 describe('enum', () => {
   test('testing enum', () => {

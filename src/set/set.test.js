@@ -1,4 +1,4 @@
-const CustomSet = require('./index.js')
+const CustomSet = require('./set.js')
 
 describe('CustomSet', () => {
   test('#add, #remove, #contains, #size, and #isEmpty', () => {

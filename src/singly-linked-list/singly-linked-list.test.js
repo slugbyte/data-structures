@@ -1,4 +1,4 @@
-const SinglyLinkedList = require('./index.js')
+const SinglyLinkedList = require('./singly-linked-list.js')
 
 describe('Singly Linked List', () => {
   test('#prependNodeWithValue', () => {
