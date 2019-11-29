@@ -1,4 +1,4 @@
-const DoublyLinkedList = require('./index.js')
+const DoublyLinkedList = require('./doubly-linked-list.js')
 
 describe('Doubly Linked List', () => {
   test('#prependNodeWithValue', () => {

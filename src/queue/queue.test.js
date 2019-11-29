@@ -1,4 +1,4 @@
-const Queue = require('./index.js')
+const Queue = require('./queue.js')
 
 describe('queue', () => {
   test('#enqueue and #dequeue', () => {

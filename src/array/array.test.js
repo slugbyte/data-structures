@@ -1,4 +1,4 @@
-const CustomArray = require('./index.js')
+const CustomArray = require('./array.js')
 describe('Array', () => {
   test('#append', () => {
     let temp = new CustomArray()

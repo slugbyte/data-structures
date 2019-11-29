@@ -1,4 +1,4 @@
-const HashTable = require('./index.js')
+const HashTable = require('./hash-table.js')
 
 describe('hash-table', () => {
   test('#insert, #delete', () => {
