@@ -19,16 +19,16 @@ Over time, many software design patterns have emerged as programmers have realiz
 Abstract data types are amazing tools that solve many common programming problems. Learning to implement them can greatly enhance your understanding of software design problems. 
 
 ## General Abstrat Data Structures
-* ✔︎ Singly Linked List
-* ✔︎ Doubly Linked List
-* ✔︎ Array
-* ✔︎ Enumeration
-* ✔︎ Stack
-* ✔︎ Queue
-* ✔︎ Set
-* ✔︎ Hash Table
-* ✔︎ Min Heap (array implamentation)
-* ✗ Max Heap (tree implamentation)
+* ✔︎ [Singly Linked List](./src/singly-linked-list)
+* ✔︎ [Doubly Linked List](./src/doubly-linked-list)
+* ✔︎ [Array](./src/array)
+* ✔︎ [Enum](./src/enum)
+* ✔︎ [Stack](./src/stack)
+* ✔︎ [Queue](./src/queue)
+* ✔︎ [Set](./src/set)
+* ✔︎ [Hash Table](./src/hash-table)
+* ✔︎ [Min Heap](./src/min-heap)
+* ✔︎ [Max Heap](./src/max-heap)
 * ✗ Binary Search Tree
 * ✗ Tree
 * ✗ Graph 
