@@ -9,3 +9,4 @@
 * [Hash Table](./hash-table)
 * [Min Heap](./min-heap)
 * [Max Heap](./max-heap)
+* [Binary Search Tree](./binary-search-tree)
