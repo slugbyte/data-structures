@@ -1,3 +1,5 @@
+const crypto = require('crypto')
+
 class HashNode {
   constructor(key, value, next){
     this.key = key
@@ -12,16 +14,22 @@ class HashTable {
     this.numBuckets = numBuckets
   }
 
-  hash(key){
+  _hash(key){
+    let hash = crypto.createHash('sha1').update(key).digest().toString('hex')
     let result = 0
-    for(let i=0; i<key.length;i++){
-      result += key.charCodeAt(i)
+    for(let i=0; i<hash.length;i++){
+      result += hash.charCodeAt(i) * (i + 1)
     }
     return result % this.numBuckets
   }
 
+  clear(numBuckets){
+    this.buckets = new Array(numBuckets || this.numBuckets)
+    this.numBuckets = numBuckets || this.numBuckets
+  }
+
   insert(key, value){ 
-    let hashedKey = this.hash(key)
+    let hashedKey = this._hash(key)
     let node = this.buckets[hashedKey]
 
     if (!node){
@@ -42,7 +50,7 @@ class HashTable {
   }
   
   delete(key){ 
-    let hashedKey = this.hash(key)
+    let hashedKey = this._hash(key)
     let node = this.buckets[hashedKey]
 
     if (!node){
@@ -68,7 +76,7 @@ class HashTable {
   }
 
   get(key){
-    let hashedKey = this.hash(key)
+    let hashedKey = this._hash(key)
     let node = this.buckets[hashedKey]
 
     if (!node){
