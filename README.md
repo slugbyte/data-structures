@@ -32,20 +32,29 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Trie](./src/trie)
 
 ### TODO
- 
 1. ✗ Rope
-1. ✗ Observable
-1. ✗ Binomial Heap
+1. ✗ Skip-List
+1. ✗ Bit Array
+1. ✗ Gap Buffer
+1. ✗ Sparse Matrix
+1. ✗ Bloom Filter
+1. ✗ Priority Queue
 1. ✗ Directed Graph 
 1. ✗ Circular Buffer
-1. ✗ Double Hashed Hash Table
+1. ✗ Double-Ended Queue
+1. ✗ Self-Sorting Array
 1. ✗ B-Tree
+1. ✗ T-Tree
 1. ✗ AA Tree
 1. ✗ AVL Tree
-1. ✗ K-Ary Tree
-1. ✗ Ternary Tree
+1. ✗ Matrix
+1. ✗ Splay Tree
+1. ✗ Radix Tree
+1. ✗ Suffix Tree
+1. ✗ Merkle Tree
 1. ✗ Cartesian Tree
-1. ✗ Red-Black Tree
+1. ✗ Scapegoat Tree
+1. ✗ Weight-Balanced Tree
 
 ## References
 * [https://en.wikipedia.org/wiki/Abstract_data_type](https://en.wikipedia.org/wiki/Double_hashing)
