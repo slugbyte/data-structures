@@ -28,14 +28,14 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Hash Table](./src/hash-table)
 * ✔︎ [Min Heap](./src/min-heap)
 * ✔︎ [Max Heap](./src/max-heap)
+* ✔︎ [Binary Search Tree](./src/binary-search-tree)
+
 
 ### TODO
-1. ✗ Binary Search Tree
 1. ✗ Trie 
 1. ✗ Directional Graph 
 1. ✗ Observable
 1. ✗ Circular Buffer
-1. ✗ Dynamic Array
 1. ✗ AA Tree
 1. ✗ AVL Tree
 1. ✗ Cartesian Tree
