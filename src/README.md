@@ -12,3 +12,4 @@
 * [Binary Search Tree](./binary-search-tree)
 * [Trie](./trie)
 * [Circular Buffer](./circular-buffer)
+* [Bit Array](./bit-array)
