@@ -30,6 +30,7 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Max Heap](./src/max-heap)
 * ✔︎ [Binary Search Tree](./src/binary-search-tree)
 * ✔︎ [Trie](./src/trie)
+* ✔︎ [Circular Buffer](./src/circular-buffer)
 
 ### TODO
 1. ✗ Rope
@@ -40,9 +41,8 @@ Abstract data types are amazing tools that solve many common programming problem
 1. ✗ Bloom Filter
 1. ✗ Priority Queue
 1. ✗ Directed Graph 
-1. ✗ Circular Buffer
 1. ✗ Double-Ended Queue
-1. ✗ Self-Sorting Array
+1. ✗ Sorted Array
 1. ✗ B-Tree
 1. ✗ T-Tree
 1. ✗ AA Tree
