@@ -6,6 +6,11 @@ describe('BitArray', () => {
     expect(buffer.toNumber()).toBe(5)
   })
 
+  test('BitArray.fromNumber', () => {
+    let buffer = BitArray.fromNumber(5, 8)
+    expect(buffer.data).toEqual([0,0,0,0,0,1,0,1])
+  })
+
   test('#setBit, #getBit, #flipBit, #toNumber', () => {
     let buffer = new BitArray(8)
     buffer.setBit(0, 1)
@@ -80,4 +85,11 @@ describe('BitArray', () => {
     console.log(buffer)
     expect(buffer.data).toEqual([0,0,0,0,0,0,0,1])
   })
+
+  test('#not', () => {
+    let buffer = BitArray.fromArray([0,0,0,0,1,1,1,1])
+    buffer.not()
+    expect(buffer.data).toEqual([1,1,1,1,0,0,0,0])
+  })
+
 })

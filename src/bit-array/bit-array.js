@@ -33,6 +33,12 @@ class BitArray {
     if(index < this.size){
       this.data[this._indexToPosition(index)] = this.getBit(index) ? 0 : 1
     }
+    return this
+  }
+
+  not(){
+    this.data = this.data.map(bit => bit ? 0 : 1)
+    return this
   }
 
   and(bitArray){
@@ -72,6 +78,7 @@ class BitArray {
       this.data.shift()
       this.data.push(0)
     }
+    return this
   }
 
   shiftRight(numBits=1){
@@ -81,6 +88,7 @@ class BitArray {
       this.data.unshift(0)
       this.data.pop()
     }
+    return this
   }
 
   toNumber(){
@@ -97,6 +105,22 @@ BitArray.fromArray = function(data){
   result.size = data.length
   result.data = data.map(item => !!item ? 1 : 0)
   return result
+}
+
+BitArray.fromNumber = function(number, minSize){
+  if(typeof number != 'number') return 
+  let result = []
+  for(let i=0; Math.pow(2, i) < number;i++){
+    if (number & (1 << i)) 
+      result.push(1)
+    else 
+      result.push(0)
+  }
+
+  for(let i=result.length; i<minSize; i++){
+    result.unshift(0)
+  }
+  return BitArray.fromArray(result)
 }
 
 module.exports = BitArray
