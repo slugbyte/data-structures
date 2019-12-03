@@ -31,11 +31,12 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Binary Search Tree](./src/binary-search-tree)
 * ✔︎ [Trie](./src/trie)
 * ✔︎ [Circular Buffer](./src/circular-buffer)
+* ✔︎ [Bit Array](./src/bit-array)
 
 ### TODO
 1. ✗ Rope
 1. ✗ Skip-List
-1. ✗ Bit Array
+
 1. ✗ Gap Buffer
 1. ✗ Sparse Matrix
 1. ✗ Bloom Filter
