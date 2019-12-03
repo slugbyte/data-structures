@@ -11,3 +11,4 @@
 * [Max Heap](./max-heap)
 * [Binary Search Tree](./binary-search-tree)
 * [Trie](./trie)
+* [Circular Buffer](./circular-buffer)
