@@ -32,18 +32,16 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Trie](./src/trie)
 * ✔︎ [Circular Buffer](./src/circular-buffer)
 * ✔︎ [Bit Array](./src/bit-array)
+* ✔︎ [Sorted Array](./src/sorted-array)
 
 ### TODO
 1. ✗ Rope
 1. ✗ Skip-List
-
 1. ✗ Gap Buffer
 1. ✗ Sparse Matrix
 1. ✗ Bloom Filter
 1. ✗ Priority Queue
 1. ✗ Directed Graph 
-1. ✗ Double-Ended Queue
-1. ✗ Sorted Array
 1. ✗ B-Tree
 1. ✗ T-Tree
 1. ✗ AA Tree
