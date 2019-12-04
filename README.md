@@ -40,7 +40,6 @@ Abstract data types are amazing tools that solve many common programming problem
 1. ✗ Matrix
 1. ✗ Skip-List
 1. ✗ Gap Buffer
-1. ✗ Sorted Array
 1. ✗ Bloom Filter
 1. ✗ Sparse Matrix
 1. ✗ Priority Queue
