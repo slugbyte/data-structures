@@ -33,6 +33,7 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Trie](./src/trie)
 * ✔︎ [Circular Buffer](./src/circular-buffer)
 * ✔︎ [Bit Array](./src/bit-array)
+* ✔︎ [Sorted Array](./src/sorted-array)
 
 ### TODO
 1. ✗ Rope
