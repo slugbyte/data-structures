@@ -18,24 +18,34 @@ Over time, many software design patterns have emerged as programmers have realiz
 Abstract data types are amazing tools that solve many common programming problems. Learning to implement them can greatly enhance your understanding of software design problems. 
 
 ## General Abstrat Data Structures
+#### Linked 
 * ✔︎ [Singly Linked List](./src/singly-linked-list)
 * ✔︎ [Doubly Linked List](./src/doubly-linked-list)
+
+#### Array
 * ✔︎ [Array](./src/array)
-* ✔︎ [Enum](./src/enum)
-* ✔︎ [Stack](./src/stack)
-* ✔︎ [Queue](./src/queue)
-* ✔︎ [Double Ended Queue](./src/double-ended-queue)
-* ✔︎ [Set](./src/set)
-* ✔︎ [Hash Table](./src/hash-table)
-* ✔︎ [Min Heap](./src/min-heap)
-* ✔︎ [Max Heap](./src/max-heap)
-* ✔︎ [Binary Search Tree](./src/binary-search-tree)
-* ✔︎ [Trie](./src/trie)
-* ✔︎ [Circular Buffer](./src/circular-buffer)
 * ✔︎ [Bit Array](./src/bit-array)
 * ✔︎ [Sorted Array](./src/sorted-array)
 
+#### FIFO FILO
+* ✔︎ [Stack](./src/stack)
+* ✔︎ [Queue](./src/queue)
+* ✔︎ [Double Ended Queue](./src/double-ended-queue)
+* ✔︎ [Circular Buffer](./src/circular-buffer)
+
+#### Tree
+* ✔︎ [Trie](./src/trie)
+* ✔︎ [Min Heap](./src/min-heap)
+* ✔︎ [Max Heap](./src/max-heap)
+* ✔︎ [Binary Search Tree](./src/binary-search-tree)
+
+#### MISC
+* ✔︎ [Set](./src/set)
+* ✔︎ [Enum](./src/enum)
+* ✔︎ [Hash Table](./src/hash-table)
+
 ### TODO
+
 1. ✗ Rope
 1. ✗ Matrix
 1. ✗ Skip-List
