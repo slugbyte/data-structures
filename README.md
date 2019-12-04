@@ -22,9 +22,10 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Singly Linked List](./src/singly-linked-list)
 * ✔︎ [Doubly Linked List](./src/doubly-linked-list)
 
-#### Array
+#### Array 
 * ✔︎ [Array](./src/array)
 * ✔︎ [Bit Array](./src/bit-array)
+* ✔︎ [Gap Buffer](./src/gap-buffer)
 * ✔︎ [Sorted Array](./src/sorted-array)
 
 #### FIFO FILO
@@ -49,7 +50,6 @@ Abstract data types are amazing tools that solve many common programming problem
 1. ✗ Rope
 1. ✗ Matrix
 1. ✗ Skip-List
-1. ✗ Gap Buffer
 1. ✗ Bloom Filter
 1. ✗ Sparse Matrix
 1. ✗ Priority Queue
