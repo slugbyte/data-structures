@@ -13,3 +13,4 @@
 * [Trie](./trie)
 * [Circular Buffer](./circular-buffer)
 * [Bit Array](./bit-array)
+* [Double Ended Queue](./double-ended-queue)
