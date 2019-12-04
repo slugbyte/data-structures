@@ -1,14 +1,15 @@
 # Data Structures
 
+
 # Linked 
 * [Singly Linked List](./singly-linked-list)
 * [Doubly Linked List](./doubly-linked-list)
 
-# Tree
-* [Trie](./trie)
-* [Min Heap](./min-heap)
-* [Max Heap](./max-heap)
-* [Binary Search Tree](./binary-search-tree)
+# Arrays
+* [Array](./array)
+* [Bit Array](./bit-array)
+* [Gap Buffer](./gap-buffer)
+* [Sorted Array](./array-array)
 
 # FIFO FILO
 * [Stack](./stack)
@@ -16,10 +17,11 @@
 * [Double Ended Queue](./double-ended-queue)
 * [Circular Buffer](./circular-buffer)
 
-# Arrays
-* [Array](./array)
-* [Bit Array](./bit-array)
-* [Sorted Array](./array-array)
+# Tree
+* [Trie](./trie)
+* [Min Heap](./min-heap)
+* [Max Heap](./max-heap)
+* [Binary Search Tree](./binary-search-tree)
 
 # MISC
 * [Enum](./enum)
