@@ -14,8 +14,8 @@
 #### FIFO FILO
 * [Stack](./stack)
 * [Queue](./queue)
-* [Double Ended Queue](./double-ended-queue)
 * [Circular Buffer](./circular-buffer)
+* [Double Ended Queue](./double-ended-queue)
 
 #### Tree
 * [Trie](./trie)
@@ -24,6 +24,6 @@
 * [Binary Search Tree](./binary-search-tree)
 
 #### MISC
-* [Enum](./enum)
 * [Set](./set)
+* [Enum](./enum)
 * [Hash Table](./hash-table)
