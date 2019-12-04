@@ -14,6 +14,13 @@ class GapBuffer {
     return this.before.length
   }
 
+  getCharAt(index){
+    if(index < this.before.length){
+      return this.before[index]
+    }
+    return this.after[index - this.before.length]
+  }
+
   insertChar(char){
     if(typeof char != 'string' || char.length != 1)
       throw new Error('insertChar only accepts a single charicter')

@@ -80,6 +80,18 @@ describe('GapBuffer', () => {
     expect(buffer.after).toEqual([])
   })
 
+  test('#getCharAt', () => {
+    let buffer = new GapBuffer().insertString('hello')
+      .moveGap(3)
+
+    expect(buffer.getCharAt(0)).toBe('h')
+    expect(buffer.getCharAt(1)).toBe('e')
+    expect(buffer.getCharAt(2)).toBe('l')
+    expect(buffer.getCharAt(3)).toBe('l')
+    expect(buffer.getCharAt(4)).toBe('o')
+    expect(buffer.getCharAt(5)).toBeUndefined()
+  })
+
   test('#deleteForward #deleteBackward', () => {
     let buffer = new GapBuffer()
     buffer.insertString('hello')
