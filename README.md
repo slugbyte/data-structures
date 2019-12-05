@@ -43,15 +43,14 @@ Abstract data types are amazing tools that solve many common programming problem
 #### MISC
 * ✔︎ [Set](./src/set)
 * ✔︎ [Enum](./src/enum)
+* ✔︎ [Matrix](./src/matrix)
 * ✔︎ [Hash Table](./src/hash-table)
 
 ### TODO
 
 1. ✗ Rope
-1. ✗ Matrix
 1. ✗ Skip-List
 1. ✗ Bloom Filter
-1. ✗ Sparse Matrix
 1. ✗ Priority Queue
 1. ✗ Directed Graph 
 1. ✗ B-Tree
