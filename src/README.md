@@ -26,4 +26,5 @@
 #### MISC
 * [Set](./set)
 * [Enum](./enum)
+* [Matrix](./matrix)
 * [Hash Table](./hash-table)
