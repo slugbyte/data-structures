@@ -82,7 +82,6 @@ describe('BitArray', () => {
     expect(buffer.data).toEqual([0,0,0,0,0,1,1,1])
 
     buffer.shiftRight(2)
-    console.log(buffer)
     expect(buffer.data).toEqual([0,0,0,0,0,0,0,1])
   })
 
