@@ -31,9 +31,9 @@ Abstract data types are amazing tools that solve many common programming problem
 #### FIFO FILO
 * ✔︎ [Stack](./src/stack)
 * ✔︎ [Queue](./src/queue)
-* ✔︎ [Double Ended Queue](./src/double-ended-queue)
+* ✔︎ [Priority Queue](./src/priority-queue)
 * ✔︎ [Circular Buffer](./src/circular-buffer)
-
+* ✔︎ [Double Ended Queue](./src/double-ended-queue)
 #### Tree
 * ✔︎ [Trie](./src/trie)
 * ✔︎ [Min Heap](./src/min-heap)
