@@ -52,7 +52,6 @@ Abstract data types are amazing tools that solve many common programming problem
 1. ✗ Rope
 1. ✗ Skip-List
 1. ✗ Bloom Filter
-1. ✗ Priority Queue
 1. ✗ Directed Graph 
 1. ✗ B-Tree
 1. ✗ T-Tree
