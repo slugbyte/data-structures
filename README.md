@@ -38,6 +38,7 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Trie](./src/trie)
 * ✔︎ [Min Heap](./src/min-heap)
 * ✔︎ [Max Heap](./src/max-heap)
+* ✔︎ [Binary Heap](./src/binary-heap)
 * ✔︎ [Binary Search Tree](./src/binary-search-tree)
 
 #### MISC
