@@ -21,6 +21,7 @@ Abstract data types are amazing tools that solve many common programming problem
 #### Linked 
 * ✔︎ [Singly Linked List](./src/singly-linked-list)
 * ✔︎ [Doubly Linked List](./src/doubly-linked-list)
+* ✔︎ [Skip List](./src/skip-list)
 
 #### Array 
 * ✔︎ [Array](./src/array)
@@ -50,7 +51,6 @@ Abstract data types are amazing tools that solve many common programming problem
 ### TODO
 
 1. ✗ Rope
-1. ✗ Skip-List
 1. ✗ Bloom Filter
 1. ✗ Directed Graph 
 1. ✗ B-Tree
