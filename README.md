@@ -45,6 +45,7 @@ Abstract data types are amazing tools that solve many common programming problem
 #### MISC
 * ✔︎ [Set](./src/set)
 * ✔︎ [Enum](./src/enum)
+* ✔︎ [Graph](./src/graph)
 * ✔︎ [Matrix](./src/matrix)
 * ✔︎ [Hash Table](./src/hash-table)
 
