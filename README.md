@@ -35,6 +35,7 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Priority Queue](./src/priority-queue)
 * ✔︎ [Circular Buffer](./src/circular-buffer)
 * ✔︎ [Double Ended Queue](./src/double-ended-queue)
+
 #### Tree
 * ✔︎ [Trie](./src/trie)
 * ✔︎ [Min Heap](./src/min-heap)
@@ -42,18 +43,19 @@ Abstract data types are amazing tools that solve many common programming problem
 * ✔︎ [Binary Heap](./src/binary-heap)
 * ✔︎ [Binary Search Tree](./src/binary-search-tree)
 
+#### Graph
+* ✔︎ [Graph](./src/graph)
+* ✔︎ [Directed-Graph](./src/directed-graph)
+
 #### MISC
 * ✔︎ [Set](./src/set)
 * ✔︎ [Enum](./src/enum)
-* ✔︎ [Graph](./src/graph)
 * ✔︎ [Matrix](./src/matrix)
 * ✔︎ [Hash Table](./src/hash-table)
 
 ### TODO
-
 1. ✗ Rope
 1. ✗ Bloom Filter
-1. ✗ Directed Graph 
 1. ✗ B-Tree
 1. ✗ T-Tree
 1. ✗ AA Tree
