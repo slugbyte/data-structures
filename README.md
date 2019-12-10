@@ -67,6 +67,12 @@ Abstract data types are amazing tools that solve many common programming problem
 1. ✗ Cartesian Tree
 1. ✗ Scapegoat Tree
 1. ✗ Weight-Balanced Tree
+* write READMEs for `*`
+* create ART for `*`
+* add validtion to `*`
+* add more sort functions to sorted-array
+* add shorted path algo to graph/directed-graph
+* improve sll and dll
 
 ## References
 * [https://en.wikipedia.org/wiki/Abstract_data_type](https://en.wikipedia.org/wiki/Double_hashing)
