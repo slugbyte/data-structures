@@ -1,8 +1,8 @@
-const Graph = require("./graph.js")
+const DirectedGraph = require("./directed-graph.js")
 
-describe('Graph', () => {
+describe('graph', () => {
   test('#addVertex #hasVertex #getVertex', () => {
-    let graph = new Graph()
+    let graph = new DirectedGraph()
     expect(graph.vertexCount).toBe(0)
 
     expect(graph.hasVertex('a')).toBeFalsy()
@@ -20,7 +20,7 @@ describe('Graph', () => {
   })
 
   test('#addEdge #hasEdge #getEdgeWeight', () => {
-    let graph = new Graph()
+    let graph = new DirectedGraph()
     graph.addVertex('a').addVertex('b').addVertex('c')
 
     expect(graph.hasEdge('a', 'b')).toBeFalsy()
@@ -29,45 +29,52 @@ describe('Graph', () => {
     graph.addEdge('a', 'b').addEdge('c', 'b', 11)
     expect(graph.edgeCount).toBe(2)
     expect(graph.hasEdge('a', 'b')).toBeTruthy()
-    expect(graph.hasEdge('b', 'a')).toBeTruthy()
+    expect(graph.hasEdge('b', 'a')).toBeFalsy()
     expect(graph.getEdgeWeight('a', 'b')).toBe(0)
+    expect(graph.getEdgeWeight('b', 'a')).toBeNull()
+
+    graph.addEdge('b', 'a')
+    expect(graph.hasEdge('b', 'a')).toBeTruthy()
+    expect(graph.edgeCount).toBe(3)
     expect(graph.getEdgeWeight('b', 'a')).toBe(0)
 
     expect(graph.hasEdge('c', 'b')).toBeTruthy()
-    expect(graph.hasEdge('b', 'c')).toBeTruthy()
+    expect(graph.hasEdge('b', 'c')).toBeFalsy()
     expect(graph.getEdgeWeight('c', 'b')).toBe(11)
-    expect(graph.getEdgeWeight('b', 'c')).toBe(11)
+    expect(graph.getEdgeWeight('b', 'c')).toBeNull()
 
     expect(graph.hasEdge('c', 'a')).toBeFalsy()
   })
 
 
   test('#deleteVirtex #deleteEdge', () => {
-    let graph = new Graph()
+    let graph = new DirectedGraph()
     graph.addVertex('a').addVertex('b').addVertex('c')
-    graph.addEdge('a', 'b').addEdge('c', 'b').addEdge('c', 'a')
-    expect(graph.vertexCount).toBe(3)
-    expect(graph.edgeCount).toBe(3)
+    .addVertex('d')
+    .addEdge('a', 'b').addEdge('c', 'b').addEdge('c', 'a')
+    .addEdge('b', 'a').addEdge('c', 'd')
+    expect(graph.vertexCount).toBe(4)
+    expect(graph.edgeCount).toBe(5)
 
     graph.deleteEdge('a', 'b')
-    expect(graph.vertexCount).toBe(3)
-    expect(graph.edgeCount).toBe(2)
-    expect(graph.hasEdge('b', 'a')).toBeFalsy()
+    expect(graph.vertexCount).toBe(4)
+    expect(graph.edgeCount).toBe(4)
     expect(graph.hasEdge('a', 'b')).toBeFalsy()
+    expect(graph.hasEdge('b', 'a')).toBeTruthy()
 
     graph.deleteVirtex('a')
-    expect(graph.vertexCount).toBe(2)
-    expect(graph.edgeCount).toBe(1)
+    expect(graph.vertexCount).toBe(3)
+    expect(graph.edgeCount).toBe(2)
     expect(graph.hasEdge('c', 'a')).toBeFalsy()
-    expect(graph.hasEdge('a', 'c')).toBeFalsy()
+    expect(graph.hasEdge('b', 'a')).toBeFalsy()
     expect(graph.hasVertex('a')).toBeFalsy()
 
+    expect(graph.hasEdge('c', 'd')).toBeTruthy()
     expect(graph.hasEdge('c', 'b')).toBeTruthy()
-    expect(graph.hasEdge('b', 'c')).toBeTruthy()
   })
 
   test('traversals', () => {
-    let graph = new Graph()
+    let graph = new DirectedGraph()
     graph.addVertex('a').addVertex('b').addVertex('c')
       .addVertex('d').addVertex('e').addVertex('f')
       .addEdge('a', 'b').addEdge('b', 'c')
